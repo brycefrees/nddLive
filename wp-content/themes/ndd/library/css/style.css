@@ -2047,7 +2047,7 @@ body.page-id-1308 .entry-content img {
   cursor: pointer; }
 
 .carousel-control {
-  bottom: 40px; }
+  bottom: 40px !important; }
 
 /*********************
 LARGER MOBILE DEVICES
