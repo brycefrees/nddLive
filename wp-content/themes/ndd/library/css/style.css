@@ -2031,11 +2031,20 @@ body.page-id-1308 .entry-content img {
   opacity: 0; }
 
 #myCarousel .item a {
-  width: 100%; }
+  width: 100%;
+  cursor: url("../images/cursor.png"), pointer; }
 
 #myCarousel .item img {
   opacity: 0;
   width: 100%; }
+
+#myCarousel .item .fullscreenBTN {
+  background-image: url("../images/fullscreenBTN.png");
+  width: 196px;
+  height: 30px;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer; }
 
 /*********************
 LARGER MOBILE DEVICES
