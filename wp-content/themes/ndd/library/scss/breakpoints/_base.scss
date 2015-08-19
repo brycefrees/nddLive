@@ -1086,10 +1086,16 @@ SINGLE PROJECT
 		padding-top:20px;
 		margin:0px 40px;
 		font-size:24px;
+	
 	}
 	
 	.entry-content img{
 		width:auto;
+	}
+
+
+	.carousel-inner .item img, .carousel-inner .item a{
+		width:100%;
 	}
 	
 	#slideshow {
