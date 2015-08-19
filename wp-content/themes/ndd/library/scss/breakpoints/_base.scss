@@ -1153,7 +1153,13 @@ SINGLE PROJECT
 	
 	.hentry header {padding:0px;border:none;}
 		
-		.entry-content{padding:0px;}
+		.entry-content{
+			padding:0px;
+			
+			img{
+				width:100%;
+				}
+			}
 }
 
 

@@ -1949,6 +1949,8 @@ SINGLE PROJECT
   border: none; }
 #more-projects .entry-content {
   padding: 0px; }
+  #more-projects .entry-content img {
+    width: 100%; }
 
 /**********************************
 	SINGLE COLUMN PAGE TEMPLATE
