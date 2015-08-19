@@ -1,3 +1,5 @@
 config.codekit
 
 *.a
+
+wp-config.php
