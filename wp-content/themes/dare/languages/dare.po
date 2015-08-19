@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: dare/single.php:55
+#: dare/single.php:133
+#: dare/loop-1.php:12
+#: dare/loop-2.php:12
+msgid "% comments"
+msgstr ""
+
+#. Text in function
+#: dare/comments.php:16
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in function
+#: dare/single.php:55
+#: dare/single.php:133
+#: dare/loop-1.php:12
+#: dare/loop-2.php:12
+msgid "0 comments"
+msgstr ""
+
+#. Text in function
+#: dare/single.php:55
+#: dare/single.php:133
+#: dare/loop-1.php:12
+#: dare/loop-2.php:12
+msgid "1 comment"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/functions.php:394
+#: dare/framework/global/theme-functions.php:360
+msgid "404 - Not Found"
+msgstr ""
+
+#. Text in function
+#: dare/framework/shortcodes/portfolio.php:1
+msgid "All"
+msgstr ""
+
+#. Text in echo
+#: dare/single-portfolio.php:43
+msgid "All Projects"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/functions.php:394
+#: dare/framework/global/theme-functions.php:360
+msgid "Archives: "
+msgstr ""
+
+#. Text in echo
+#: dare/single.php:55
+#: dare/single.php:133
+#: dare/loop-1.php:12
+#: dare/loop-2.php:12
+msgid "By"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/filters.php:1
+msgid "Cancel reply"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/functions.php:394
+#: dare/framework/global/theme-functions.php:360
+msgid "Category Archives: "
+msgstr ""
+
+#. Text in echo
+#: dare/comments.php:32
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: dare/comments.php:50
+#: dare/comments.php:65
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: dare/framework/shortcodes/contactform.php:1
+#: dare/framework/global/filters.php:1
+msgid "Email"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/functions.php:394
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/filters.php:1
+msgid "Leave a comment"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/filters.php:1
+msgid "Leave a reply to %s"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/filters.php:1
+msgid "Log out"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/filters.php:1
+msgid "Log out of this account"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/filters.php:1
+msgid "Logged in as"
+msgstr ""
+
+#. Text in function
+#: dare/framework/shortcodes/contactform.php:1
+#: dare/framework/global/filters.php:1
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: dare/comments.php:17
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in echo
+#: dare/single-portfolio.php:44
+msgid "Next"
+msgstr ""
+
+#. Text in echo
+#: dare/framework/widgets/popular.php:54
+#: dare/framework/widgets/popular.php:59
+#: dare/single.php:55
+#: dare/single.php:133
+#: dare/framework/widgets/related.php:66
+#: dare/framework/widgets/related.php:71
+#: dare/framework/widgets/recent.php:55
+#: dare/framework/widgets/recent.php:60
+#: dare/loop-1.php:12
+#: dare/loop-2.php:12
+msgid "On"
+msgstr ""
+
+#. Text in echo
+#: dare/comments.php:50
+msgid "Pingback:"
+msgstr ""
+
+#. Text in function
+#: dare/framework/shortcodes/buttons.php:1
+msgid "Press Me"
+msgstr ""
+
+#. Text in echo
+#: dare/single-portfolio.php:42
+msgid "Previous"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/filters.php:1
+msgid "Publish"
+msgstr ""
+
+#. Text in echo
+#: dare/loop-1.php:14
+#: dare/loop-2.php:14
+msgid "Read More"
+msgstr ""
+
+#. Text in echo
+#: dare/single-portfolio.php:168
+msgid "Recent Works."
+msgstr ""
+
+#. Text in function
+#: dare/comments.php:64
+msgid "Reply"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/functions.php:394
+#: dare/framework/global/theme-functions.php:360
+msgid "Search results: "
+msgstr ""
+
+#. Text in function
+#: dare/framework/shortcodes/contactform.php:1
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: dare/framework/global/functions.php:394
+#: dare/framework/global/theme-functions.php:360
+msgid "Tag Archives: "
+msgstr ""
+
+#. Text in echo
+#: dare/comments.php:4
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#. Text in echo
+#: dare/searchform.php:3
+msgid "Type and hit enter"
+msgstr ""
+
+#. Text in echo
+#: dare/404.php:33
+msgid "Unfortunately, the page you tried accessing could not be retrieved."
+msgstr ""
+
+#. Text in function
+#: dare/framework/shortcodes/contactform.php:1
+#: dare/framework/global/filters.php:1
+msgid "Your Message"
+msgstr ""
+
+#. Text in echo
+#: dare/comments.php:72
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: dare/framework/shortcodes/contactform.php:1
+msgid "Your message was successfully sent!"
+msgstr ""
+
+#. Text in function
+#: dare/framework/shortcodes/blog.php:1
+msgid "comments"
+msgstr ""
+
+#. Text in function
+#: dare/comments.php:62
+msgid "on"
+msgstr ""

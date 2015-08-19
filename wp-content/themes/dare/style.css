@@ -1,0 +1,15 @@
+/*
+Theme Name: Dare
+Theme URI:  http://pixelthemes.net/dare/
+Description: The perfect theme for creative agencies.
+Version: 1.1
+License: GNU General Public License
+License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
+Author: PixelBook
+
+*/
+
+.pagetitle h2 {
+	display: none;
+}
+

@@ -1,0 +1,202 @@
+/*
+Theme Name: Dare
+Theme URI: http://www.themeforest.net/user/mounte/portfolio
+Author: Dor Bens / Mounte
+Author URI: http://www.themeforest.net/user/mounte
+Description: The perfect theme for creative agencies.
+Version: 1.0.0
+Tags: responsive, 960 grid system
+
+	** Child skin
+	** Color: cyan
+
+*/
+
+
+	body {
+		border-top-color: #44BEE7
+	}
+	blockquote {
+		border-left-color: #44BEE7
+	}
+	a:hover,
+	a:focus {
+		color: #44BEE7
+	}
+	#header #nav > ul > li > a:hover,
+	#header #nav > ul > li.current-menu-item > a,
+	#header #nav > ul > li.current-menu-parent > a	{
+		color: #44BEE7
+	}
+	#header #nav > ul > li.current-menu-item,
+	#header #nav > ul > li.current-menu-parent,
+	.hasChilds:hover {
+		border-bottom-color: #44BEE7;
+	}
+	#header #nav > ul ul > li:first-child > a {
+		border-top-color: #44BEE7
+	}
+	#header #nav > ul ul > li:hover > a {
+		background: #44BEE7
+	}
+	
+
+	
+	.slides h2 {
+		color: #44BEE7
+	}
+	#pageinfo .breadcrumbs a:hover {
+		color: #44BEE7
+	}
+	.item .image a > span {
+		background-color: #44BEE7
+	}
+	.item-slideshow .prev,
+	.item-slideshow .next {
+		background-color: #44BEE7
+	}
+	ul#filter li a:hover {
+		color: #44BEE7
+	}
+	ul#filter li.active a {
+		color: #44BEE7
+	}
+	#footer a:hover,
+	#copyrights a:hover {
+		color: #44BEE7
+	}
+	#footer #latest-posts ul li .post-type:hover {
+		background-color: #44BEE7
+	}
+	#copyrights a:hover,
+	#copyrights a:hover {
+		color: #44BEE7
+	}
+	.post-type:hover {
+		background-color: #44BEE7
+	}
+	.infobox {
+		border-left-color: #44BEE7
+	}
+	.accordion h5:hover {
+		color: #44BEE7
+	}
+	.accordion h5.active {
+		color: #44BEE7
+	}
+	.pagenav li.active a {
+		background: #44BEE7;
+		border-color: #44BEE7;
+	}
+	.post-slideshow .prev,
+	.post-slideshow .next {
+		background-color: #44BEE7
+	}
+	#sidebar .widget a:hover {
+		color: #44BEE7
+	}
+	/* button */
+	a.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		background: #67CFF1; /* Old browsers */
+		background: -moz-linear-gradient(top, #67CFF1 0%, #44BEE7 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#67CFF1), color-stop(100%,#44BEE7)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #67CFF1 0%,#44BEE7 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #67CFF1 0%,#44BEE7 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #67CFF1 0%,#44BEE7 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #67CFF1 0%,#44BEE7 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67CFF1', endColorstr='#44BEE7',GradientType=0 ); /* IE6-9 */
+		border-color: #3AA4C8;
+	}
+	a.button:hover,
+	button:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover,
+	a.button:active,
+	button:active,
+	input[type="submit"]:active,
+	input[type="reset"]:active,
+	input[type="button"]:active
+	a.button:focus,
+	button:focus,
+	input[type="submit"]:focus,
+	input[type="reset"]:focus,
+	input[type="button"]:focus {
+		background: #44BEE7; /* Old browsers */
+		background: -moz-linear-gradient(top, #44BEE7 0%, #67CFF1 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44BEE7), color-stop(100%,#67CFF1)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #44BEE7 0%,#67CFF1 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #44BEE7 0%,#67CFF1 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #44BEE7 0%,#67CFF1 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #44BEE7 0%,#67CFF1 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44BEE7', endColorstr='#67CFF1',GradientType=0 ); /* IE6-9 */
+		color: #f7f7f7;
+	}
+	.tabs ul li.active a {
+		border-top-color: #44BEE7
+	}
+	a#back-to-top:hover {
+		background-color: #44BEE7
+	}
+	.accordion h5 span {
+		background-image: url(../images/cyan/plus-minus.png)
+	}
+	#slider .flex-next,
+	#slider .flex-prev {
+		background-image: url(../images/cyan/slider-nav.png)
+	}
+	/* ul - check style */
+	ul.check li {
+		background-image: url(../images/cyan/list-check.png)
+	}
+	/* ul - arrow style */
+	ul.arrow li {
+		background-image: url(../images/cyan/list-arrow.png)
+	}
+	/* ul - star style */
+	ul.star li {
+		background-image: url(../images/cyan/list-star.png)
+	}
+	/* ul - close style */
+	ul.close li {
+		background-image: url(../images/cyan/list-close.png)
+	}
+	/* ul - square style */
+	ul.square li {
+		background-image: url(../images/cyan/list-square.png)
+	}
+	/* ul - plus style */
+	ul.plus li {
+		background-image: url(../images/cyan/list-plus.png)
+	}
+	/* ul - minus style */
+	ul.minus li {
+		background-image: url(../images/cyan/list-minus.png)
+	}
+	.team-members .up,
+	.team-members .down {
+		background-image: url(../images/cyan/icon-arrow-up.png)
+	}
+	.team-members .down {
+		background-image: url(../images/cyan/icon-arrow-down.png)
+	}
+	#header #nav > ul > li.current-menu-item,
+	#header #nav > ul > li.current-menu-parent,
+	.hasChilds:hover {
+		background-image: url(../images/cyan/menu-active.png)
+	}
+	.testimonial-next:hover,
+	.testimonial-prev:hover {
+		background-color: #44BEE7
+	}
+	
+	.widget_recent_posts ul.type1 li .post-type:hover,
+	.widget_popular_posts ul.type1 li .post-type:hover,
+	.widget_related_posts ul.type1 li .post-type:hover
+	{ background-color: #44BEE7; }
+	
+	#sidebar .post-type:hover { background-color: #44BEE7 !important; }

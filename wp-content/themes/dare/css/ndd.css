@@ -1,0 +1,265 @@
+/* This is the stylesheet for all changes to the original files */
+
+html {
+	margin-top: 10px !important;
+}
+
+body {
+	border-top-color: white;
+	background-color: #fff !important;
+}
+
+p {
+	color:#707070;
+}
+
+hr {
+	border-bottom: 1px dotted #D6D6D6;
+	margin: 30px 0 40px;
+}
+
+/* Flexible iFrame */
+
+.item-slideshow .prev {
+	width: 20%;
+	margin-right: 77%;
+	height:100%;
+	background: url(/images/arrow-left.png);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"!important;
+	filter: alpha(opacity=20)!important;
+	-moz-opacity:0.2!important;
+	-khtml-opacity: 0.2!important;
+	opacity: 0.2 !important;
+
+	
+}
+.item-slideshow .next {
+	width: 20%;
+	height:100%;
+	opacity:;
+	background: url(/images/arrow-right.png);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"!important;
+	filter: alpha(opacity=20)!important;
+	-moz-opacity:0.2!important;
+	-khtml-opacity: 0.2!important;
+	opacity: 0.2 !important;
+}
+.next:hover {
+	background-color: #f8f8f8;
+}
+.prev:hover {
+	background-color: #f8f8f8;
+}
+
+.Flexible-container {
+    position: relative;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    height:300px;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.socialMediaIcons li{
+	float:left;
+}
+.socialMediaIcons a{
+	margin-right:0px!important;
+	padding:0px !important;
+}
+.socialMediaIcons{
+	margin-right:10px!important;
+}
+.socialMediaIcons li img:hover {
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=70);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.7;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.7;
+    
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.7;
+}
+#content {
+	padding: 20px 0 33px 0;
+}
+
+#wpadminbar {
+	display:none !important;
+}
+
+#pageinfo {
+background-color: hsl(0, 0%, 17%);
+}
+
+#pageinfo h2 {
+	color:#fff;
+}
+
+
+#pageinfo .breadcrumbs {
+	color:#efefef;
+}
+
+#pageinfo .breadcrumbs a {
+	color:#999;
+}
+
+#pageinfo h1 {
+	color:#fff;
+}
+
+
+#pageinfo .breadcrumbs a.active, #pageinfo .breadcrumbs a.active:hover {
+	color:white;
+}
+
+
+.team h3 {
+	margin:0px !important;
+}
+
+.team li {
+	margin:0px !important;
+	list-style: circle;
+}
+
+.team ul {
+	margin-left:40px;
+}
+
+.item-slideshow .prev, .item-slideshow .next {
+	opacity: 100;
+}
+	
+/*This is the top nav*/
+#header #nav > ul > li.current-menu-item, #header #nav > ul > li.current-menu-parent, .hasChilds:hover {
+	border: none;
+}
+
+#header #nav > ul > li > a {
+	padding-bottom:0px;
+}
+
+#header #nav > ul > li.current-menu-item, #header #nav > ul > li.current-menu-parent, .hasChilds:hover {
+	border: none);
+	background: none;
+}
+
+#header #nav {
+	padding-top:33px;
+}
+.pagesnav {
+	display:none;
+}
+
+
+
+
+
+
+
+/*home links*/
+.homelinksbox ul li {
+	float:left;
+	margin-left:0px !important;
+	margin-top:0px;
+	padding:0px;
+	margin-right: 5px;
+	list-style-type: none !important;
+	list-style: none !important;
+}
+
+.homelinksboxTwo {
+	display:none;
+}
+
+.twelve ul li {
+	list-style-type: circle;
+	margin-left: 40px;
+}
+
+#pageinfo {
+	height:75px;
+}
+
+#pageinfo .container {
+padding: 11px 0;
+}
+
+.pagetitle h2 {
+	display: none !important;
+}
+
+/*footer*/
+#footer {
+	background-color: none !important;
+	padding: 0 0 !important;
+}
+
+
+/*media queries*/
+@media (max-width: 980px) {
+	.homelinksbox ul {
+	width:100%; 
+}
+.homelinksbox ul li img {
+	width:183px;
+	height:200px; 
+}
+}
+
+
+@media (max-width: 767px){
+#slider {
+	margin-bottom: 10px;
+
+}
+
+#pageinfo {
+	height: auto;
+}
+
+#slider .flex-control-nav {
+	display:none;
+}
+}
+
+@media (max-width: 479px) {
+	.homelinksbox {
+		display:none;
+}
+.homelinksboxTwo {
+	display:block;
+	color:#fff;
+	text-align: center;
+	font-weight: bold;
+}
+.homelinksboxTwo ul li {
+	background-color: black;
+	margin-bottom:20px;
+	padding:15px;
+	font-size:18px;
+	list-style: none;
+}
+
+}
