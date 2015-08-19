@@ -1895,6 +1895,8 @@ SINGLE PROJECT
   font-size: 24px; }
 .single-projects .entry-content img {
   width: auto; }
+.single-projects .carousel-inner .item img, .single-projects .carousel-inner .item a {
+  width: 100%; }
 .single-projects #slideshow {
   padding: 0px; }
 .single-projects #projects-top {
