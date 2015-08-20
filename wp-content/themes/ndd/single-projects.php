@@ -71,9 +71,12 @@
 									      
 									    <?php foreach( $images as $image ): ?>
 								        <div class="item">
-								          <a href="<?php echo $image['url']; ?>" rel="lightbox"><img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
-										  <a href="<?php echo $image['url']; ?>" rel="lightbox" class="fullscreenBTN"></a>
-								        </div>
+								         <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+								          <a href="<?php echo $image['url']; ?>" rel="lightbox" class="fullscreenBTN"></a>
+
+										 </div>
+										 
+										 
 								        
 								         <?php endforeach; ?>
 								       <?php endif; ?>
