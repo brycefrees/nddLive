@@ -1321,9 +1321,30 @@ CONTACT FORM
 
 
 
+/*Fullscreen slider overwrite styles*/
 
+.tos-caption{
+	display:none !important;
+}
 
+.tos-desktop .tos-wrapper.tos-fixed {
+    background-color: rgba(0,0,0,1);
+}
 
+.tos-close {
+    height: 80px;
+    width:80px;
+    top: 20px;
+    right: 20px;
+    background:#107EC2;
+}
 
+.tos-close span:after, .tos-close span:before {
+    width: 10px;
+    height: 10px;
+    margin-top: -4px;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
