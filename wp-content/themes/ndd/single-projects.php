@@ -72,12 +72,8 @@
 									    <?php foreach( $images as $image ): ?>
 								        <div class="item">
 								         <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
-								          <a href="<?php echo $image['url']; ?>" rel="lightbox" class="fullscreenBTN"></a>
-
+										  <a href="<?php echo $image['url']; ?>" rel="lightbox" class="fullscreenBTN"></a>
 										 </div>
-										 
-										 
-								        
 								         <?php endforeach; ?>
 								       <?php endif; ?>
 								        
