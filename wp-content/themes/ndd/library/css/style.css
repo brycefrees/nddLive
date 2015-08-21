@@ -1901,7 +1901,7 @@ SINGLE PROJECT
   padding: 0px; }
 .single-projects #projects-top {
   max-width: 1480px;
-  margin: 0px auto; }
+  margin: 0px auto 20px auto; }
   .single-projects #projects-top .article-header {
     padding-bottom: 10px; }
   .single-projects #projects-top h4 {
