@@ -1936,15 +1936,21 @@ SINGLE PROJECT
   position: relative; }
 
 .single-projects #myCarousel .item .fullscreenBTN {
-  background-image: url("../images/fullscreenBTN.png");
-  width: 196px;
-  height: 30px;
+  background-image: url("../images/viewLargeBTN.jpg");
+  width: 63px;
+  height: 54px;
   display: block;
   margin-top: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0px; }
+
+.single-projects #myCarousel .item .fullscreenBTN:hover {
+  background-position: center bottom; }
 
 .single-projects .carousel-control {
-  bottom: 40px !important; }
+  bottom: 60px !important; }
 
 #more-projects h4 {
   border-top: 1px solid #efefef;
