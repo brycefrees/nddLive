@@ -188,5 +188,15 @@
 				</div>
 
 			</div>
+			
+			<script>
+				
+				jQuery( ".carousel-control" ).click(function() {
+					jQuery( ".fullscreenBTN" ).fadeOut( "fast", function() {
+						jQuery( ".fullscreenBTN" ).fadeIn( 1000 );
+					});
+				});
+				
+			</script>
 
 <?php get_footer(); ?>
