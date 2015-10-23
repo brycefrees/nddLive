@@ -125,10 +125,10 @@ jQuery(document).ready(function($) {
 	
 	  /*Swipe on Mobile*/
    $("#myCarousel").swiperight(function() {  
-      $("#myCarousel").carousel('prev');  
+      $(this).carousel('prev');  
     });  
    $("#myCarousel").swipeleft(function() {  
-      $("#myCarousel").carousel('next');  
+      $(this).carousel('next');  
    }); 
 	
 
