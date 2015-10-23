@@ -123,7 +123,13 @@ jQuery(document).ready(function($) {
    $('body.post-type-archive-projects').mixItUp();
 	
 	
-	
+	  /*Swipe on Mobile*/
+   $("#myCarousel").swiperight(function() {  
+      $("#myCarousel").carousel('prev');  
+    });  
+   $("#myCarousel").swipeleft(function() {  
+      $("#myCarousel").carousel('next');  
+   }); 
 	
 
 	/*Fade in Entry Content*/

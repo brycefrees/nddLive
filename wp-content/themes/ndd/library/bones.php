@@ -150,6 +150,10 @@ function bones_scripts_and_styles() {
 		
 		// isotop js
 		wp_register_script( 'isotope-js', get_stylesheet_directory_uri() . '/library/js/min/isotope.pkgd.min.js', array(), '', false );
+		
+		// jquery mobile
+		wp_register_script( 'jquery-mobile', get_stylesheet_directory_uri() . '/library/js/min/jquery.mobile.custom.min.js', array(), '', false );
+
 
     // comment reply script for threaded comments
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
@@ -180,6 +184,7 @@ function bones_scripts_and_styles() {
 		wp_enqueue_script( 'bootstrap-js' );
 		wp_enqueue_script( 'isotope-js' );
 		wp_enqueue_script( 'mixitup-js' );
+		wp_enqueue_script( 'jquery-mobile' );
 
 	}
 }
